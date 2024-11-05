@@ -1,0 +1,3 @@
+Programar el Script con cron
+	crontab -e
+	0 9 * * 1 /home/leer_correos.py
