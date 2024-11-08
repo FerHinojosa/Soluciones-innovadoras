@@ -1,0 +1,5 @@
+chmod +x enviar_correos_cumple.sh
+
+crontab -e
+
+0 8 * * * /home/enviar_correos_cumple.sh
